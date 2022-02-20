@@ -78,7 +78,7 @@ class Ball {
 let balls
 function init() {
   balls = []
-  for (var i = 0; i < 300; i++) {
+  for (var i = 0; i < 450; i++) {
     let radius = randomIntFromRange(10, 20)
     let x = randomIntFromRange(radius, canvas.width - radius)
     let y = randomIntFromRange(0, canvas.height - radius)
